@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context="com.simplicitydev.railofy.About">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/logo"
+        android:src="@drawable/title2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Get PNR status, time tables of trains and find stations related to your city anywhere in India."
+        />
+
+    <TextView
+        android:id="@+id/api"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API AND SUPPORT LIBRARIES USED"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:textSize="16sp"
+        android:layout_below="@+id/desc"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/api"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColorLink="@android:color/black"
+        android:text="Volley"
+        />
+
+    <TextView
+        android:id="@+id/cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/volley"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColorLink="@android:color/black"
+        android:text="Card View"
+        />
+
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorLink="@android:color/black"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/cardview"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Indian Railways Time Table API"
+        />
+
+    <TextView
+        android:id="@+id/sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/tt"
+        android:layout_centerHorizontal="true"
+        android:textColorLink="@android:color/black"
+        android:gravity="center"
+        android:text="Station Code API"
+        />
+
+    <TextView
+        android:id="@+id/created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created By:"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:textSize="16sp"
+        android:layout_below="@+id/sc"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/created"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Simplicity Dev (Shashwat Kunwar)"
+        android:id="@+id/textView" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+</RelativeLayout>
