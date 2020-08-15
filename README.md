@@ -26,8 +26,8 @@ You can generate .apk files (either signed or unsigned) using Android Studio.
 
 * [Volley Library](https://github.com/google/volley) - For fetching
 and sending data.
-* [Railway Time Table API](https://data.gov.in/resources/indian-railways-time-table-trains-available-reservation-01112017/api) - For train time table
-* [Station Code API](https://rapidapi.com/blaazetech/api/indian-railways) - For list of station codes
+* [Railway Time Table API](https://data.gov.in/resources/indian-railways-time-table-trains-available-reservation-01112017/api) - For train time table (India only)
+* [Station Code API](https://rapidapi.com/blaazetech/api/indian-railways) - For list of station codes in India
 
 
 
